@@ -18,5 +18,5 @@ def address(message):
             bot.send_message(message.chat.id, "Там уже сами переобразуете json в текст")
     except:
         bot.send_message(message.chat.id, "Нужно вводить с адресом, а не без адреса /address\nВот например")
-        bot.send_message(mesaage.chat.id, "/address Test")
+        bot.send_message(message.chat.id, "/address Test")
 bot.polling(none_stop=True)
